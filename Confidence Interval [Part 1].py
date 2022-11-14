@@ -104,7 +104,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
-nhanes=pd.read_csv(r'C://Users/Namrata/Desktop/Courseera/statistics using python/Datasets/NHANES_2015_2016.csv')
+nhanes=pd.read_csv(r'https://github.com/NamrataNandy/confidence-interval/blob/master/datasets/NHANES_2015_2016.csv')
 nhanes.head()
 
 
